@@ -1,0 +1,66 @@
+$myFont: Buletproof;
+$font: Overmind;
+
+
+@font-face {
+    font-family: "Buletproof";
+    src: url("fonts/Gravedigger-8BOZ.ttf");
+  }
+@font-face {
+    font-family: "Overmind";
+    src: url("fonts/OvermindDemons-GO10y.ttf");
+  }
+  body {
+    background-image: linear-gradient(rgb(17, 2, 27), rgb(0, 0, 0) rgb(0, 0, 0));
+  }
+  h3 {
+    font-family: $myFont;
+    color:rgb(85, 3, 133);
+    text-shadow: 2px 0 rgb(233, 14, 32);
+    font-size: 28px;
+  }
+  .font {
+    font-family: myFont;
+  }
+
+  h1 {
+    font-family: $myFont;
+    font-size: 24px;
+    color:rgb(124, 51, 167);
+    text-align: center ;
+    text-shadow: 2px 1px fuchsia;
+  }
+  .container {
+    border: 3px solid rgba(73, 7, 68, 0.466);
+    background-color: rgba(0, 0, 0, 0.329);
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .container-2 {
+    background-color: rgb(218, 21, 136);
+    display: inline-block;
+    border-radius: 12px;
+
+  }
+
+  .border {
+    display: inline-block;
+    font-size: larger;
+    color: antiquewhite;
+
+  }
+
+  .testimonial {
+    color:rgb(248, 129, 129);
+    font-family: $myFont;
+    text-shadow: 2px 0 grey;
+  }
+
+  p {
+    font-family: $font;
+    color: hotpink;
+    text-shadow: 2px 0 px chartreuse;
+    font-size: 43px;
+    display:inline-block;
+    padding: 2%;
+  }
