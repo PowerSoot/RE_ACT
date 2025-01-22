@@ -9,13 +9,7 @@
     <title>Complete Page Example</title>
     <style>
         body,
-        html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .hero {
+        .focus {
             height: 100vh;
             justify-content: center;
             align-items: center;
@@ -23,17 +17,22 @@
             text-align: center;
         }
 
-        .hero h1 {
+        .focus h1 {
             font-size: 4rem;
             margin-bottom: 20px;
         }
 
-        .hero p {
-            font-size: 1.5rem;
+        .focus p {
+            background-image: linear-gradient(greenyellow, white,black);
+            border: 2px solid greenyellow;
             margin-bottom: 40px;
+            text-shadow: 4px 3px #f88cb9;
+            color:rgb(161, 0, 81);
+            opacity: 74%;
+            border-radius: 13px;
         }
 
-        .hero button {
+        .focus button {
             padding: 15px 30px;
             font-size: 1rem;
             border: none;
@@ -43,7 +42,7 @@
             transition: background-color 0.3s;
         }
 
-        .hero button:hover {
+        .focus button:hover {
             background-color: #e03e00;
         }
 
@@ -100,8 +99,6 @@
             font-size: 1rem;
             border: none;
             background-color: white;
-            color: #ff4500;
-            cursor: pointer;
             transition: background-color 0.3s;
         }
 
@@ -112,77 +109,87 @@
 </head>
 
 <body style="background-image: linear-gradient(purple, plum, black);">
-    <div class="hero container">
+    <div class="focus container">
         <h1>DIGITALLY IMPORTED</h1>
-        <div class="border ">
-            <div class="features">
-                <h2></h2>
+        <h2>DI.fM offers high quality and ad-free electronic music channels featuring world renowned artists and DJs.
+        </h2>
+        <div class="container">
+            <div class="features container">
+                <h2>IN THE MIX</h2>
                 <div class="feature">
-                    <img src="images\1113.jpg" alt="Feature 1">
+                    <img src="images\1123.jpg" alt="Feature 1">
                     <h3>Radio Shows</h3>
-                    <p>Short description of feature 1.</p>
+                    <p>Find the Tracklist</p>
                 </div>
-                <div class="feature">
-                    <img src="images\armada.png" alt="Feature 2">
-                    <h3>Labels</h3>
-                    <p>Armada, Anjuna Beats, Cold Harbour</p>
+                <div class="feature container-2">
+                    <img src="images\999d.png" alt="Feature 2">
+                    <h3>Record Labels</h3>
+                    <p class="p">Find the Album</p>
                 </div>
                 <div class="feature">
                     <img src="images\dc.png" alt="Feature 3">
+
                     <h3>Parties & Events</h3>
-                    <p>Insomniac's Electric Daisy Carnival</p>
+                    <p>Find the Party </p>
                 </div>
             </div>
         </div>
         <div clas="container container-2">
-        <div class="testimonial">
+            <img height="300em" src="images\345.png">
+            <img height="376em" src="images\1113.jpg">
             <img src="images\7777.png">
-            <img src="images\dakota.png">
-                <div class="testimonials">
-                    <img src="images\download.jpg">
-
-                    <img src="images\222.jpg">
-                    <p>W&W</p>
-                    <p>Way out West</p>
-                    <p>Dash Berlin</p>
-                    <img src="images\3333.png">
-                  
-                    <h2>Paul Van dyk</h2>
-
-                    <p>JOOF</p>
-                    <img src="images\Logo_of_Ultra_Music_Festival.png">
-                   
-                    <img src="images\joof.png">
-                    <p>Aly and Fila</p>
-                    <p>Armin Van Buuren</p>
-                    <img src="images\diradio.png">
-                    <p>John 00 Flemming</p>
-                    <p>Sander Van Doorn</p>
+            <img height="350em" src="images\dakota.png">
+            <img src="images\download.jpg">
+            <img src="images\Logo_of_Ultra_Music_Festival.png">
+            <img height="250em" src="images\222.jpg">
+            <div class="container-2">
+                <img src="images\joof.png">
+                <img src="images\1234.png">
+            </div>
+            <img src="images\diradio.png">
+            <div class="container">
+            <img src="images\999.png">
+            <div class="container">
                 </div>
-                <div class="testimonial">
+                <p>W&W</p>
+                <p>Way out West</p>
+                <p>Dash Berlin</p>
 
-                </div>
-                </div>
+
+                <h2>Paul Van dyk</h2>
+
+                <p>JOOF</p>
+
+                <p>Aly and Fila</p>
+                <p>Armin Van Buuren</p>
+
+                <p>John 00 Flemming</p>
+                <p>Sander Van Doorn</p>
             </div>
         </div>
+        <div class="testimonial">
 
-        <h2>ARTISTS</h2>
-        <div class="">
-            <img width="100%" height="300em" src="images\113.png" alt="">
         </div>
+    </div>
+    </div>
+    </div>
 
-        <!-- index.html -->
-        <div id="data-container"></div><!-- index.html -->
-        <div id="data-container">
-            {{ name }} is {{ age }} years old.
-        </div>
+    <h2>ARTISTS</h2>
+    <div class="">
 
-        <div class="call-to-action">
-            <h2>Ready to Get Started?</h2>
-            <button onclick="handleButtonClick()"></button>
-            <script src="./src/controllers/handleSignup.js" type="module"></script>
-            <script src="./src/controllers/handleButtonClick.js" type="module"></script>
-        </div>
+    </div>
+
+    <!-- index.html -->
+    <div id="data-container"></div><!-- index.html -->
+    <div id="data-container">
+    </div>
+
+    <div class="call-to-action">
+        <h2>Get the latest in Trance</h2>
+        <button onclick="handleButtonClick()">SIGNUP FOR TRANCE</button>
+        <script src="./src/controllers/handleSignup.js" type="module"></script>
+        <script src="./src/controllers/handleButtonClick.js" type="module"></script>
+    </div>
     </div>
 </body>
 

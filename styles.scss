@@ -57,10 +57,21 @@ $font: Overmind;
   }
 
   p {
-    font-family: $font;
-    color: hotpink;
-    text-shadow: 2px 0 px chartreuse;
-    font-size: 43px;
-    display:inline-block;
+    font-family: $myfont;
+    color: rgb(212, 3, 107);
+    text-shadow: 12px 0 px rgb(89, 179, 0);
+    font-size: 83px;
     padding: 2%;
   }
+  
+  h2 {
+    color: aqua;
+    font-family: $myFont;
+  }
+
+ p:hover{
+
+  
+  background-color: yellow;
+  font-size: 18px;
+}

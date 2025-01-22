@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HeroSection from './HeroSection';
+import FocusSection from './Focus';
 import FeaturesSection from './FeaturesSection';
 import TestimonialsSection from './TestimonialsSection';
 import CallToAction from './CallToAction';
@@ -14,7 +14,7 @@ const App = () => {
 
     return (
         <div>
-            <HeroSection />
+            <FocusSection />
             <FeaturesSection />
             <TestimonialsSection />
             <CallToAction />
