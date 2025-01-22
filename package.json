@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "no-case": "^3.0.4",
     "react": "^19.0.0"
   },
   "devDependencies": {
     "webpack-cli": "^6.0.1"
   },
-  "_signature": "// @generated SignedSource<<ae3a003a8eefacf7552f90a886922356>> created by incremental-persist.py",
   "data": {
     "AccountSyncUsernameNotification": "7858197960949065",
     "AccountTransferNotification": "8220475834742024",
@@ -39,6 +39,23 @@
     "UsernameDeleteNotification": "7985162364846420",
     "UsernameSetNotification": "7777773138910784",
     "UsernameUpdateNotification": "7690268147674188",
-  "version": "^1.0"
-}
+    "version": "^1.0"
+  },
+  "name": "react-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowerSoot/RE_ACT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PowerSoot/RE_ACT/issues"
+  },
+  "homepage": "https://github.com/PowerSoot/RE_ACT#readme",
+  "description": ""
 }
