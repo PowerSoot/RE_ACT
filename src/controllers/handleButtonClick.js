@@ -1,3 +1,4 @@
 export function handleButtonClick() {
-    window.location.href = '#your-action-link';
+    const promise = fetch('https://api.spacexdata.com/v3/launches/latest');
+    promise.then(parseResponse);
 }
