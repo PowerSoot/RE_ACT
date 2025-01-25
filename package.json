@@ -1,29 +1,25 @@
 {
-  "dependencies": {
-    "@babel/cli": "^7.26.4",
-    "@babel/core": "^7.26.0",
-    "@babel/preset-react": "^7.26.3",
-    "no-case": "^3.0.4",
-    "react": "^19.0.0"
-  },
-  "devDependencies": {
-    "webpack-cli": "^6.0.1"
-  },
-  "name": "react-landing",
+  "name": "react",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PowerSoot/RE_ACT.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PowerSoot/RE_ACT/issues"
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
   },
-  "homepage": "https://github.com/PowerSoot/RE_ACT#readme",
+  "dependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "to-no-case": "^1.0.2",
+    "webpack": "^5.97.1"
+  },
   "description": ""
 }
