@@ -1563,21 +1563,115 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./src/controllers/handleClick.js":
+/***/ "./src/Views/DigitallyImported.js":
 /*!****************************************!*\
-  !*** ./src/controllers/handleClick.js ***!
+  !*** ./src/Views/DigitallyImported.js ***!
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ handleClick)
+/* harmony export */   DigitallyImported: () => (/* binding */ DigitallyImported)
 /* harmony export */ });
-/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Video2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Video2 */ "./src/Views/Video2.js");
+/* harmony import */ var _Video1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Video1 */ "./src/Views/Video1.js");
+/* harmony import */ var _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../controllers/handleSubmit */ "./src/controllers/handleSubmit.js");
 
-function handleClick() {
-  debugger;
-  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("push the button!!!! ");
+
+
+
+function DigitallyImported() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "DIGITALLY IMPORTED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "col radius bg bg-black p-3 border border-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Video1__WEBPACK_IMPORTED_MODULE_2__.Video1, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "col radius bg bg-black p-3 border border-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Video2__WEBPACK_IMPORTED_MODULE_1__.Video2, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_3__.handleSubmit
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, "Name:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "text",
+    name: "name",
+    placeholder: "Enter your name"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, "Email:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "email",
+    name: "email",
+    placeholder: "Enter your email"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "submit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag"
+  })));
+}
+
+/***/ }),
+
+/***/ "./src/Views/Video1.js":
+/*!*****************************!*\
+  !*** ./src/Views/Video1.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Video1: () => (/* binding */ Video1)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Video1() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/rB9SaTnh41M?si=GeGmi3yV7IKCnElY",
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    referrerPolicy: "strict-origin-when-cross-origin",
+    allowFullScreen: true
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/Views/Video2.js":
+/*!*****************************!*\
+  !*** ./src/Views/Video2.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Video2: () => (/* binding */ Video2)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Video2() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      padding: "0 0 0 0",
+      position: "relative"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    src: "https://player.vimeo.com/video/51467582?badge=0&autopause=0&player_id=0&app_id=58479",
+    frameBorder: "0",
+    allow: "autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media",
+    style: {
+      position: "relative",
+      top: 0,
+      left: 0,
+      width: "560px",
+      height: "315px"
+    }
+  }, "title=\"Creamfields Chile 2012\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", {
+    src: "https://player.vimeo.com/api/player.js"
+  }));
 }
 
 /***/ }),
@@ -1590,40 +1684,16 @@ function handleClick() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ handleSubmit)
+/* harmony export */   handleSubmit: () => (/* binding */ handleSubmit)
 /* harmony export */ });
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
+
 function handleSubmit(event = new Event()) {
   event.preventDefault();
-  console.log("form was submitted");
-}
-
-/***/ }),
-
-/***/ "./src/utils/Views/MyGreeting.js":
-/*!***************************************!*\
-  !*** ./src/utils/Views/MyGreeting.js ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   MyGreeting: () => (/* binding */ MyGreeting)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function MyGreeting() {
-  // let greeting = "hello worlds!";
-  const myArray = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("The time has come to");
-  const greeting = myArray[0];
-  const setGreeting = myArray[1];
-  setTimeout(changeGreeting, 3000);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "My Greeting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, greeting));
-  function changeGreeting() {
-    debugger;
-    // greeting = "goodbye world!";
-    setGreeting("GALVANiZE");
-  }
+  const inputs = event.target;
+  const name = inputs[0];
+  const email = inputs[1];
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(`Thank you ${name.value} for your submission. Your discount code has been sent to ${email.value}.`);
 }
 
 /***/ }),
@@ -1734,66 +1804,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _controllers_handleClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./controllers/handleClick */ "./src/controllers/handleClick.js");
-/* harmony import */ var _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./controllers/handleSubmit */ "./src/controllers/handleSubmit.js");
-/* harmony import */ var _utils_Views_MyGreeting__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/Views/MyGreeting */ "./src/utils/Views/MyGreeting.js");
+/* harmony import */ var _Views_DigitallyImported__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/DigitallyImported */ "./src/Views/DigitallyImported.js");
 
 
 
-
-
-const message = "The command line is so easy now!";
+const message = "DIGITALLY IMPORTED!";
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h1", null, "React is AWESOME\""), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, message), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("button", {
-  onClick: _controllers_handleClick__WEBPACK_IMPORTED_MODULE_2__["default"]
-}, "CLCKCLACK"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("output", {
-  id: "outputTag"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "duh"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_utils_Views_MyGreeting__WEBPACK_IMPORTED_MODULE_4__.MyGreeting, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "duh"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h1", null, "React Programming")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "row"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "col radius bg bg-black p-3 border border-white"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("iframe", {
-  width: "560",
-  height: "315",
-  src: "https://www.youtube.com/embed/rB9SaTnh41M?si=GeGmi3yV7IKCnElY",
-  title: "YouTube video player",
-  frameBorder: "0",
-  allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-  referrerPolicy: "strict-origin-when-cross-origin",
-  allowFullScreen: true
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  class: "col radius bg bg-black p-3 border border-white"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-  style: {
-    padding: "0 0 0 0",
-    position: "relative"
-  }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("iframe", {
-  src: "https://player.vimeo.com/video/51467582?badge=0&autopause=0&player_id=0&app_id=58479",
-  frameBorder: "0",
-  allow: "autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media",
-  style: {
-    position: "relative",
-    top: 0,
-    left: 0,
-    width: "560px",
-    height: "315px"
-  }
-}, "title=\"Creamfields Chile 2012\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("script", {
-  src: "https://player.vimeo.com/api/player.js"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("form", {
-  onSubmit: _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_3__["default"]
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("input", {
-  type: "text"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("input", {
-  type: "submit"
-}))));
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_DigitallyImported__WEBPACK_IMPORTED_MODULE_2__.DigitallyImported, null)));
 })();
 
 /******/ })()

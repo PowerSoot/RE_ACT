@@ -1,10 +1,11 @@
-import React from 'react';
-import App from './Views/App';
+import { createRoot } from "react-dom/client";
+import React from "react";
+import { DigitallyImported } from "./Views/DigitallyImported";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-// index.js
-const dataContainer = document.getElementById('data-container');
-const data = { name: 'John', age: 30 };
-
-const template = Handlebars.compile(dataContainer.innerHTML);
-dataContainer.innerHTML = template(data);
+const message = "DIGITALLY IMPORTED!";
+const root = createRoot(window.bodyTag);
+root.render(
+  <main>
+    <DigitallyImported />
+  </main>
+);
