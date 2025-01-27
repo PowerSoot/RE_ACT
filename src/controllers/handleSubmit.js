@@ -8,6 +8,6 @@ export function handleSubmit(event = new Event()) {
   const email = inputs[1];
 
   output(
-    `Thank you ${name.value} for your submission. Your discount code has been sent to ${email.value}.`
+    `Thank you ${name.value} for your submission. Use the code "PARTYNOW" for 25% your first booking.<br> Your discount code has also been sent to ${email.value}.`
   );
 }

@@ -1693,7 +1693,7 @@ function handleSubmit(event = new Event()) {
   const inputs = event.target;
   const name = inputs[0];
   const email = inputs[1];
-  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(`Thank you ${name.value} for your submission. Your discount code has been sent to ${email.value}.`);
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(`Thank you ${name.value} for your submission. Use the code "PARTYNOW" for 25% your first booking.<br> Your discount code has also been sent to ${email.value}.`);
 }
 
 /***/ }),
