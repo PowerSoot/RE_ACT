@@ -6,7 +6,7 @@ import { handleSubmit } from "../controllers/handleSubmit";
 export function DigitallyImported() {
   return (
     <>
-      <div class="container">
+      <div className="container">
         <h1>We are INSOMNIAC partnered with DIGITALLY IMPORTED</h1>
         <h2>We CREATE the best PARTIES</h2>
         <p>
@@ -17,26 +17,26 @@ export function DigitallyImported() {
           the excitement, and the unforgettable moments that make it all happen.
         </p>
         <h3>Book your party today!</h3>
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <Video1 />
           </div>
-          <div class="col">
+          <div className="col">
             <h2>
               Driven by the power of self-expression and the urge to explore, we
               embrace the challenge of building connections and fostering
               something greater than ourselves. We are committed to creating
               spaces that are safe, inspiring, and fueled by a relentless spirit
-              of positivity.{" "}
-              <span class="text-danger"> Sign up for your party today! </span>
+              of positivity.
+              <span className="text-danger">Sign up for your party today!</span>
             </h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <Video2 />
           </div>
-          <div class="col">
+          <div className="col">
             <form onSubmit={handleSubmit}>
               <label>Name:</label>
               <br />

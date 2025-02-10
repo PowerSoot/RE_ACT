@@ -3,7 +3,6 @@ import React from "react";
 export function Video2() {
   return (
     <>
-      {" "}
       <div
         style={{
           padding: "0 0 0 0",
